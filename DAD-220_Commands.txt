@@ -1,0 +1,85 @@
+INSERT INTO person (first_name, last_name)
+VALUES ('Joshua',  'Robinson');
+
+ALTER TABLE person ADD middle_initial VARCHAR(1) DEFAULT NULL;
+
+UPDATE person SET middle_initial = 'A'
+WHERE first_name = 'Joshua' AND last_name = 'Robinson';
+
+ALTER TABLE person ADD prefix VARCHAR(4) DEFAULT NULL;
+
+UPDATE person SET prefix = 'Mr.'
+WHERE first_name = 'Michael' AND last_name = 'Phelps';
+
+UPDATE person SET prefix = 'Ms.'
+WHERE first_name = 'Katie' AND last_name = 'Ledecky';
+
+UPDATE person SET prefix = 'Mr.'
+WHERE first_name = 'Usain' AND last_name = 'Bolt';
+
+UPDATE person SET prefix = 'Mrs.'
+WHERE first_name = 'Allyson' AND last_name = 'Felix';
+
+UPDATE person SET prefix = 'Mr.'
+WHERE first_name = 'Kevin' AND last_name = 'Durant';
+
+UPDATE person SET prefix = 'Mrs.'
+WHERE first_name = 'Diana' AND last_name = 'Taurasi';
+
+UPDATE person SET prefix = 'Mr.'
+WHERE first_name = 'Joshua' AND last_name = 'Robinson';
+
+DELETE FROM person WHERE first_name = 'Diana' AND last_name = 'Taurasi';
+
+ALTER TABLE contact_list ADD favorite VARCHAR(10);
+
+UPDATE contact_list SET favorite = 'y' WHERE contact_id = 1;
+
+UPDATE contact_list SET favorite = 'n' WHERE contact_id <> 1;
+
+INSERT INTO contact_list (person_id, contact_id, favorite)
+VALUES (5, 7, 'n'), (7, 2, 'n'), (7, 4, 'n');
+
+CREATE TABLE image (
+image_id INT(8) AUTO_INCREMENT NOT NULL,
+image_name VARCHAR(50) NOT NULL,
+image_location VARCHAR(250) NOT NULL,
+PRIMARY KEY (image_id)
+);
+
+CREATE TABLE message_image (
+message_id INT(8) NOT NULL,
+image_id INT(8) NOT NULL,
+PRIMARY KEY (message_id, image_id),
+FOREIGN KEY (message_id) REFERENCES message(message_id),
+FOREIGN KEY (image_id) REFERENCES image(image_id)
+);
+
+INSERT INTO image (image_name, image_location)
+VALUES ('swan', 'London'), ('pigeon', 'Chicago'), ('crane', 'Tokyo'), ('turkey', 'Pennsylvania'), ('heron', 'Maine'), ('flamingo', 'Miami');
+
+INSERT INTO message_image (message_id, image_id)
+VALUES (2, 4), (3, 2), (4, 1), (5, 3), (5, 5);
+
+SELECT sender.first_name AS "sender_first_name", 
+sender.last_name AS "sender_last_name", 
+receiver.first_name AS "receiver_first_name", 
+receiver.last_name AS "receiver_last_name", 
+message.message_id AS "message_id", 
+message.message AS "message", 
+message.send_datetime AS "message_timestamp"
+FROM person AS sender 
+JOIN message ON sender.person_id = message.sender_id 
+JOIN person AS receiver ON message.receiver_id =receiver.person_id 
+WHERE UPPER(sender.last_name) = 'PHELPS' AND UPPER(sender.first_name) = 'MICHAEL';
+
+SELECT COUNT(message_id) AS message_count, sender_id, first_name, last_name
+FROM message, person
+WHERE person_id = sender_id
+GROUP BY sender_id;
+
+SELECT message.message_id, message, send_datetime AS message_timestamp, image_name AS first_image_name, image_location AS first_image_location
+FROM image 
+INNER JOIN message_image ON image.image_id = message_image.image_id
+INNER JOIN message on message_image.message_id = message.message_id
+GROUP BY message.message_id;
