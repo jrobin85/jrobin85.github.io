@@ -18,7 +18,7 @@
 
 # 5-2 Milestone Four: Enhancement Three: Databases
 
-[IT-145 Final Project code](https://github.com/jrobin85/jrobin85.github.io/blob/master/DAD-220_Commands.txt)
+[DAD-220 Final Project code](https://github.com/jrobin85/jrobin85.github.io/blob/master/DAD-220_Commands.txt)
 
 [Milestone Four narrative](https://github.com/jrobin85/jrobin85.github.io/blob/master/7-1%20Final%20Project-%20Database%20Management%20ReportTAKENFROMWEB.docx)
 
