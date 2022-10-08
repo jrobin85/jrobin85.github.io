@@ -1,0 +1,3 @@
+Hello, guide!
+
+As a guide, you have access to all of the animals locations and bilogical information. This allows you to tell guests about the animals in each enclosure.
