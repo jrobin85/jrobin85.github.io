@@ -1,116 +1,50 @@
-# The Architect theme
+# Introduction
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/architect/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/architect/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-architect.svg)](https://badge.fury.io/rb/jekyll-theme-architect)
+My name is Joshua Robinson. I have come to the end of my studies and will be earning my bachelor degree in Computer Science from Southern New Hampshire University.  Welcome to my ePortfolio. I have highlighted 3 specific artifacts in the areas of Software design and engineering, Algorithms and data structure, and Databases from a few of my classes I completed while studying at SNHU. As you can see, I have each category linked with a narrative that explains the artifact and what I earned, found challenging, and enhancements to demonstrate learning beyond the scope of the class. Moving forward, I plan to pursue a career in the field of IT or programming. Once I have graduated, I will search in earnest for the position that fits me.
 
-*Architect is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/architect), or even [use it today](#usage).*
+## Self-Reflection
 
-![Thumbnail of Architect](thumbnail.png)
+The Computer Science program at SNHU helped me to develop and hone skills relative to the field. I came into the program with an associate degree in Architectural Engineering. This wasn’t really all that useful in the program as it related to content specific course requirements. I was able to use the course work credits towards the core requirements for the SNHU’s computer science degree. There were many aspects of this course of study that seemed pretty easy for me. I felt that I had a great amount of tacit knowledge and some cursory background experience with some of the programming language and a basic understanding of the roadmap from point A to point B.
 
-## Usage
+What seemed most trying for me was feeling like I was missing something in the details. I always felt a great sense of accomplishment when I completed a task that taught me a necessary skill for moving forward or added another tool to my toolbox. When I think about the specifics of the program, the most difficult classes offered me the most growth. I found that the action of coding and designing were most fulfilling for me in terms of learning and enhancing my knowledge base. There were times when I wished there was more to do, more hands-on activities and more applied learning.
 
-To use the Architect theme:
+Although I understand the importance of writing, I was most comfortable when pushing myself with other aspects of the course work. For example, in the UI/UX design class, I was very excited to learn about app programs and thoroughly enjoyed the design aspect of the course. What gave me the most challenge was the detail in the tangential topics. It would have been most advantageous for me to have an opportunity to put some design skills to the test in application.
+Most specifically, I feel that any task that required me to pay attention to detail, in coding mostly, was where I was able to showcase my abilities. I was drawn to the minute aspects of coding. For example, making sure there weren’t unnecessary spaces, or misspelled words. It was sometimes a puzzle that was missing that one little piece.
 
-1. Add the following to your site's `_config.yml`:
+The various platforms MongoDB, Python, C++, Java, and MySQL, although all different for different purposes, the small level of knowledge that I had prior to this degree program gave me the basic ability to move forward with a little less trepidation.
 
-    ```yml
-    remote_theme: pages-themes/architect@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+The most collaboration I felt was relative to the class where I used Git. In this class, I interacted with version control, where I was able to track changes in a collaborative manner. Speaking from a non-technical sense, using version control was beneficial in terms of time management. Additionally, I felt that team collaboration was present in each class discussion as I was able to interact with my classmates while we shared perspectives and knowledge.
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+I was proactive in my learning as I reached out to all instructors when I needed clarification or guidance. Oftentimes I would receive the correct direction or was given just enough information, that I would need to think through the process a little deeper.Computer science is a vast field that is prone to some level of malevolence. The need to ensure security is paramount, especially considering the nature of the information can lead to data breaches that affect people in devastating ways. The need to ensure enhanced network security at a programming level with an attention to accessibility can potentially protect the victimization of data breaching, considering the current technology community is global.
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+I mentioned, in my introduction, that I have included the artifacts from three specific areas of computer science study. The first, Software engineering and design, was a class where I chose to highlight my learning with an artifact from the class CS-330. It was the final project where I was tasked with creating 3-D objects. The project I submitted included 5 objects that I recreated. This class was most visual and allowed me to see exactly what I was programming as I went along. OpenGL was a little cumbersome to work through because the object required very minute details to recreate my scene in 3D.
 
-## Customizing
+The second, Algorithms and Data Structures was the area of focus in this ePortfolio in which I highlighted the class IT-145: Foundation in Application Development. This class required me to interact with Java and code an authentication system for a zoo. Within this specific program, the following actions occurred:  Asked the user for a username, Asked the user for a password, Converted the password using a message digest five (MD5) hash, Checked the credentials against the valid credentials provided in the credentials file, Limited failed attempts to three before notifying the user and exiting the program, Gave authenticated users access to the correct role file after successful authentication, Allowed a user to log out, and Stayed on the credential screen until either a successful attempt had been made, three unsuccessful attempts had been made, or a user chose to exit. With this artifact, I enhanced it by providing the addition of comments and defaults in the code. By adding the default, I feel this is important because including these two necessary features will ensure the code provides all the necessary information thus making it more secure. This artifact enhancement allows me to show my skills in programming more readable codes. It provides information to any other person looking at the code to understand it.  Working with Java was not too challenging for me. Additionally, having used Python first, gave me some background knowledge that made the process with Java easier. I found this class to be one of the least difficult classes in my course of studies.
 
-### Configuration variables
+The final, Software engineering and Databases, highlights the artifact from my DAD-220 Introduction to SQL. I found this to be a straightforward activity. I chose this artifact because I was comfortable with the MySQL database and felt I was able to revisit it through what I have saved in my files. Additionally, I enjoyed this class and the assignments because it allowed me to see my work as I progressed through the commands. At one point, I actually misspelled my own last name. I was able to make that correction without much trouble. With this artifact, I enhanced the database by including a prefix column which identifies each, as either Mr., Mrs., or Ms. With this additional data field, I was required to add each prefix individually. I also added an additional image name and location into the image table. Within these enhancements, I was able to showcase my skills and abilities. Although, I did encounter a challenge as I was not able to actually run the database in the beginning due to the inability to access it. With some research I was able to recreate the database in order to run the commands. This allowed me to see if the enhancements were accurate. I was able to run the commands with a few errors that were easily fixed to run it accurately and I could see that my enhancements are included in the command lines. This improved the artifact because it would provide a more detailed list of the database, meaning the identifiers for each person were more specific.
 
-Architect will respect the following variables, if set in your site's `_config.yml`:
+## Code Review
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+[Code review link](https://youtu.be/NE0OZ7xVRnQ)
 
-Additionally, you may choose to set the following optional variables:
+## Milestone Two: Enhancement One: Software Design and Engineering
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+[CS-330 Final Project code](https://github.com/jrobin85/jrobin85.github.io/blob/master/Final%20Project.cpp)
 
-### Stylesheet
+[Milestone Two narrative](https://github.com/jrobin85/jrobin85.github.io/blob/master/3-2%20Milestone%20Two-%20Enhancement%20One%20Sotware%20Design%20and%20Engineering.docx)
 
-If you'd like to add your own custom styles:
+![Before render](before.png) ![After render](after.jpg)
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+## 4-2 Milestone Three: Enhancement Two: Algorithms and Data Structure
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+[IT-145 Final Project code](https://github.com/jrobin85/jrobin85.github.io/tree/master/IT-145_Final_Project_Authentication/Authenticate)
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+[Milestone Three narrative](https://github.com/jrobin85/jrobin85.github.io/blob/master/CS%20499%20Milestone%20Three%20Narrative.docx)
 
-### Layouts
+## 5-2 Milestone Four: Enhancement Three: Databases
 
-If you'd like to change the theme's HTML layout:
+[DAD-220 Final Project code](https://github.com/jrobin85/jrobin85.github.io/blob/master/DAD-220_Commands.txt)
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/architect/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/architect/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/architect/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
+[Milestone Four narrative](https://github.com/jrobin85/jrobin85.github.io/blob/master/5-2%20Milestone%20Four-%20Enhancement%20Three-%20Databases%20Narrative.docx)
 
-### Customizing Google Analytics code
-
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/architect/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/architect/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Architect theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Architect? We'd love your help. Architect is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/architect`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+![image 1](Image1.png) ![image 2](Image2.png) ![image 3](Image3.png) ![image 4](Image4.png) ![image 5](Image5.png) ![image 6](Image6.png) ![image 7](Image7.png) ![image 8](Image8.png) ![image 9](Image9.png) ![image 10](Image10.png) ![image 11](Image11.png) ![image 12](Image12.png) ![image 13](Image13.png) ![image 14](Image14.png)
